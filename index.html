@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alfin Khalaj Syahruwardi — Web Developer &amp; UI/UX Designer</title>
+<meta name="description" content="Portofolio Alfin Khalaj Syahruwardi — Web Developer & UI/UX Designer, mahasiswa Teknik Informatika Universitas Esa Unggul yang antusias dalam membangun produk digital.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav">
+  <a href="#top" class="nav__mark">AKS</a>
+  <nav class="nav__links">
+    <a href="#about"><span class="nav__num">01</span>Profil</a>
+    <a href="#skills"><span class="nav__num">02</span>Keahlian</a>
+    <a href="#work"><span class="nav__num">03</span>Proyek</a>
+    <a href="#design"><span class="nav__num">04</span>Desain</a>
+    <a href="#publications"><span class="nav__num">05</span>Publikasi</a>
+    <a href="#contact"><span class="nav__num">06</span>Kontak</a>
+  </nav>
+  <a href="#contact" class="nav__cta">Hubungi Saya</a>
+  <button class="nav__burger" aria-label="Buka menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero__slats" aria-hidden="true">
+    <div class="hero__slats-inner" id="slats"></div>
+    <div class="hero__sweep" id="sweep"></div>
+  </div>
+
+  <div class="hero__content">
+    <p class="hero__eyebrow">Portofolio — Teknik Informatika, Universitas Esa Unggul</p>
+    <h1 class="hero__name">
+      <span class="hero__name-line">ALFIN KHALAJ</span>
+      <span class="hero__name-line hero__name-line--accent">SYAHRUWARDI</span>
+    </h1>
+    <p class="hero__role">Web Developer <span class="hero__dot">·</span> UI/UX Designer <span class="hero__dot">·</span> IT Student</p>
+
+    <div class="hero__actions">
+      <a href="#work" class="btn btn--solid">Lihat Proyek <span class="btn__arrow">→</span></a>
+      <a href="#contact" class="btn btn--outline">Hubungi Saya</a>
+    </div>
+  </div>
+
+  <div class="hero__meta">
+    <span>Tangerang, Banten, ID</span>
+    <span class="hero__meta-sep">/</span>
+    <span>Terbuka untuk Peluang Baru</span>
+  </div>
+
+  <a href="#about" class="hero__scroll" aria-label="Gulir ke bawah">
+    <span class="hero__scroll-line"></span>
+    Scroll
+  </a>
+</section>
+
+<!-- divider -->
+<div class="divider" aria-hidden="true"><div class="divider__bars"></div></div>
+
+<!-- ===== ABOUT ===== -->
+<section class="section" id="about">
+  <div class="section__label">
+    <span class="section__num">01</span>
+    <span class="section__word">Profil</span>
+  </div>
+
+  <div class="about">
+    <div class="about__portrait">
+      <div class="idcard" id="idcard">
+        <div class="idcard__lanyard" aria-hidden="true">
+          <span></span>
+          <div class="idcard__clip"></div>
+        </div>
+        <div class="idcard__body" id="idcardBody">
+          <div class="idcard__glare" id="idcardGlare"></div>
+          <div class="idcard__notch"></div>
+          <div class="idcard__header">
+            <span class="idcard__org">UNIVERSITAS ESA UNGGUL</span>
+            <span class="idcard__type">DEVELOPER PASS</span>
+          </div>
+          <div class="idcard__photo">
+            <img src="assets/alfin-photo.jpg" alt="Foto Alfin Khalaj Syahruwardi" loading="lazy">
+          </div>
+          <div class="idcard__info">
+            <span class="idcard__name">Alfin Khalaj S.</span>
+            <span class="idcard__role">Web Dev &amp; UI/UX</span>
+          </div>
+          <div class="idcard__footer">
+            <div class="idcard__barcode" aria-hidden="true"></div>
+            <span class="idcard__id">ID · TI-2023-091</span>
+          </div>
+        </div>
+      </div>
+      <p class="about__caption">IPK 3.43 / 4.00 <br> Semester 7 — 2023 s/d Sekarang</p>
+      <p class="about__hint">Gerakkan kursor / geser jari di kartu →</p>
+    </div>
+
+    <div class="about__body">
+      <p class="about__lead">
+        Mahasiswa S1 Teknik Informatika yang antusias mengawinkan logika pemrograman web
+        <em>(Web Development)</em> dengan estetika antarmuka pengguna
+        <em>(UI/UX Design)</em>.
+      </p>
+      <p>
+        Saya terbiasa memadukan kreativitas visual melalui Figma dengan implementasi
+        teknis menggunakan ekosistem Laravel dan Docker. Didukung oleh pola pikir analitis
+        dari riset yang terpublikasi secara global <strong>(terindeks Scopus)</strong>,
+        saya senang membangun produk digital yang tidak hanya menarik secara visual,
+        tetapi juga fungsional dan mudah digunakan.
+      </p>
+      <p>
+        Saat ini saya terbuka untuk peluang magang, kolaborasi proyek, maupun diskusi
+        kreatif di bidang pengembangan web dan desain produk digital.
+      </p>
+
+      <dl class="about__facts">
+        <div>
+          <dt>Institusi</dt>
+          <dd>Universitas Esa Unggul</dd>
+        </div>
+        <div>
+          <dt>Program Studi</dt>
+          <dd>S1 Teknik Informatika</dd>
+        </div>
+        <div>
+          <dt>Lokasi</dt>
+          <dd>Tangerang, Banten, Indonesia</dd>
+        </div>
+        <div>
+          <dt>Fokus</dt>
+          <dd>Web Development &amp; UI/UX</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><div class="divider__bars"></div></div>
+
+<!-- ===== SKILLS ===== -->
+<section class="section" id="skills">
+  <div class="section__label">
+    <span class="section__num">02</span>
+    <span class="section__word">Keahlian</span>
+  </div>
+
+  <div class="skills">
+    <div class="skills__group">
+      <div class="skills__bar"></div>
+      <div class="skills__body">
+        <h3>Bahasa Pemrograman</h3>
+        <ul class="tags">
+          <li>Java</li><li>Python</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="skills__group">
+      <div class="skills__bar"></div>
+      <div class="skills__body">
+        <h3>Web &amp; Framework</h3>
+        <ul class="tags">
+          <li>Laravel</li><li>Filament</li><li>PHP</li><li>REST API</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="skills__group">
+      <div class="skills__bar"></div>
+      <div class="skills__body">
+        <h3>Basis Data</h3>
+        <ul class="tags">
+          <li>MySQL</li><li>PostgreSQL</li><li>SQL</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="skills__group">
+      <div class="skills__bar"></div>
+      <div class="skills__body">
+        <h3>Tools &amp; Infrastruktur</h3>
+        <ul class="tags">
+          <li>Docker</li><li>Git &amp; GitHub</li><li>Postman</li><li>VSCode</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="skills__group">
+      <div class="skills__bar"></div>
+      <div class="skills__body">
+        <h3>Desain</h3>
+        <ul class="tags">
+          <li>Figma</li><li>UI/UX Design</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><div class="divider__bars"></div></div>
+
+<!-- ===== WORK ===== -->
+<section class="section" id="work">
+  <div class="section__label">
+    <span class="section__num">03</span>
+    <span class="section__word">Proyek</span>
+  </div>
+
+  <div class="work__intro">
+    <p>Proyek kuliah &amp; kolaborasi tim yang saya bangun dengan fokus pada arsitektur backend yang rapi dan antarmuka yang mudah digunakan.</p>
+  </div>
+
+  <div class="projects">
+
+    <article class="project">
+      <div class="project__head">
+        <span class="project__year">2026</span>
+        <span class="project__type">Proyek Kelompok</span>
+      </div>
+      <h3 class="project__title">Tanivers</h3>
+      <p class="project__desc">Smart Farming Platform — sistem manajemen pertanian berbasis web untuk pemetaan lahan, checklist aktivitas harian, pencatatan cashflow, dan dashboard pemantauan produksi secara real-time.</p>
+      <ul class="tags tags--muted">
+        <li>Laravel</li><li>Docker</li><li>MySQL</li><li>SOA</li>
+      </ul>
+      <a href="https://github.com/FiqriFathurrohman/TANIVERS" target="_blank" rel="noopener" class="project__link">Lihat Repository <span>→</span></a>
+    </article>
+
+    <article class="project">
+      <div class="project__head">
+        <span class="project__year">2025</span>
+        <span class="project__type">Proyek Individu</span>
+      </div>
+      <h3 class="project__title">Pixfin</h3>
+      <p class="project__desc">Aplikasi web photobox interaktif yang memfasilitasi kustomisasi frame dan stiker digital, dengan logika interaksi pengguna yang responsif dan optimal.</p>
+      <ul class="tags tags--muted">
+        <li>JavaScript</li><li>Web App</li><li>UI/UX</li>
+      </ul>
+      <a href="https://github.com/alfinkhalaj7/PIXFIN" target="_blank" rel="noopener" class="project__link">Lihat Repository <span>→</span></a>
+    </article>
+
+    <article class="project">
+      <div class="project__head">
+        <span class="project__year">2026</span>
+        <span class="project__type">Proyek Individu</span>
+      </div>
+      <h3 class="project__title">Website PAUD Nuruzzulam</h3>
+      <p class="project__desc">Website profil &amp; informasional dibangun dari nol untuk institusi pendidikan anak usia dini, dengan fondasi arsitektur ringan yang siap untuk skalabilitas fitur.</p>
+      <ul class="tags tags--muted">
+        <li>PHP</li><li>Routing</li><li>MVC</li>
+      </ul>
+      <a href="https://github.com/alfinkhalaj7/paud-nuruzzulam" target="_blank" rel="noopener" class="project__link">Lihat Repository <span>→</span></a>
+    </article>
+
+    <article class="project">
+      <div class="project__head">
+        <span class="project__year">2026</span>
+        <span class="project__type">Proyek Kelompok</span>
+      </div>
+      <h3 class="project__title">Platform Donasi</h3>
+      <p class="project__desc">Kontribusi dalam pengembangan sistem platform donasi berbasis web sebagai bagian dari tim pengembangan.</p>
+      <ul class="tags tags--muted">
+        <li>Web App</li><li>Kolaborasi Tim</li>
+      </ul>
+      <a href="https://github.com/eko-nurcahyo/mppl" target="_blank" rel="noopener" class="project__link">Lihat Repository <span>→</span></a>
+    </article>
+
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><div class="divider__bars"></div></div>
+
+<!-- ===== DESIGN / FIGMA SHOWCASE ===== -->
+<section class="section" id="design">
+  <div class="section__label">
+    <span class="section__num">04</span>
+    <span class="section__word">Desain</span>
+  </div>
+
+  <div class="work__intro">
+    <p>Beberapa rancangan antarmuka dan alur interaksi yang saya susun di Figma — mulai dari studi kasus mata kuliah hingga eksplorasi produk digital.</p>
+  </div>
+
+  <div class="designs">
+
+    <article class="design-card">
+      <div class="design-card__frame">
+        <div class="design-card__browserbar">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="design-card__embed-wrap">
+          <iframe
+            class="design-card__embed"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fxq21KNfcSrtLCJ1cu6p1oE%2FUntitled%3Fnode-id%3D0-1%26t%3DlsveiARH88sEfI4l-1"
+            allowfullscreen
+            loading="lazy"
+            title="Prototipe Figma — Booking Lapangan"></iframe>
+        </div>
+      </div>
+      <div class="design-card__body">
+        <div class="project__head">
+          <span class="project__year">Figma</span>
+          <span class="project__type">Prototipe Interaktif</span>
+        </div>
+        <h3 class="project__title">Booking Lapangan</h3>
+        <p class="project__desc">Rancangan alur pemesanan lapangan olahraga — dari pemilihan jadwal, konfirmasi slot, hingga pembayaran, disusun dengan navigasi yang ringkas dan mudah diikuti.</p>
+        <ul class="tags tags--muted">
+          <li>Figma</li><li>Prototyping</li><li>UI/UX</li>
+        </ul>
+        <a href="https://www.figma.com/proto/xq21KNfcSrtLCJ1cu6p1oE/Untitled?node-id=0-1&t=lsveiARH88sEfI4l-1" target="_blank" rel="noopener" class="project__link">Buka Prototipe Penuh <span>→</span></a>
+      </div>
+    </article>
+
+    <article class="design-card">
+      <div class="design-card__frame">
+        <div class="design-card__browserbar">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="design-card__embed-wrap">
+          <iframe
+            class="design-card__embed"
+            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FQhug2Iwh7nLYef955NHgvV%2FIMK-TUGAS%3Fpage-id%3D0%253A1%26node-id%3D23-274%26p%3Df%26viewport%3D-6836%252C808%252C0.17%26scaling%3Dcontain%26content-scaling%3Dfixed%26starting-point-node-id%3D23%253A274"
+            allowfullscreen
+            loading="lazy"
+            title="Prototipe Figma — Tugas Interaksi Manusia dan Komputer"></iframe>
+        </div>
+      </div>
+      <div class="design-card__body">
+        <div class="project__head">
+          <span class="project__year">Figma</span>
+          <span class="project__type">Tugas Kuliah</span>
+        </div>
+        <h3 class="project__title">IMK — Studi Interaksi</h3>
+        <p class="project__desc">Eksplorasi antarmuka untuk mata kuliah Interaksi Manusia dan Komputer, menitikberatkan pada kejelasan alur pengguna dan konsistensi komponen visual.</p>
+        <ul class="tags tags--muted">
+          <li>Figma</li><li>UI Design</li><li>Usability</li>
+        </ul>
+        <a href="https://www.figma.com/proto/Qhug2Iwh7nLYef955NHgvV/IMK-TUGAS?page-id=0%3A1&node-id=23-274&p=f&viewport=-6836%2C808%2C0.17&scaling=contain&content-scaling=fixed&starting-point-node-id=23%3A274" target="_blank" rel="noopener" class="project__link">Buka Prototipe Penuh <span>→</span></a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<div class="divider" aria-hidden="true"><div class="divider__bars"></div></div>
+
+<!-- ===== PUBLICATIONS ===== -->
+<section class="section" id="publications">
+  <div class="section__label">
+    <span class="section__num">05</span>
+    <span class="section__word">Publikasi</span>
+  </div>
+
+  <div class="pubs">
+
+    <article class="pub">
+      <div class="pub__index">Penulis Utama</div>
+      <div class="pub__body">
+        <h3>Cybersecurity in Aviation and Transport Systems</h3>
+        <p class="pub__venue">IGI Global Scientific Publishing — Book Chapter · Januari 2026 <span class="badge">Terindeks Scopus</span></p>
+        <p class="pub__desc">Menganalisis lanskap ancaman siber di sektor transportasi udara, laut, dan darat pada ekosistem Smart Tourism Transportation, serta mengusulkan kerangka ketahanan lima lapis berbasis AI &amp; IoT.</p>
+        <a href="https://www.igi-global.com/chapter/cybersecurity-in-aviation-and-transport-systems/412658" target="_blank" rel="noopener" class="project__link">Baca Publikasi <span>→</span></a>
+      </div>
+    </article>
+
+    <article class="pub">
+      <div class="pub__index">Co-Author</div>
+      <div class="pub__body">
+        <h3>Implementation of the Combination of Caesar Cipher, Vigenère Cipher, and Vigenère Autokey in a Diary Web Application to Improve Data Storage Security</h3>
+        <p class="pub__venue">Jurnal Multidisiplin Sahombu, Vol. 6 No. 1 · Januari 2026</p>
+        <p class="pub__desc">Menganalisis kombinasi algoritma kriptografi klasik sebagai teknik super-encryption untuk meningkatkan keamanan penyimpanan data teks pada aplikasi web diary.</p>
+        <a href="https://ejournal.seaninstitute.or.id/index.php/JMS/article/view/7965" target="_blank" rel="noopener" class="project__link">Baca Publikasi <span>→</span></a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ===== CONTACT / FOOTER ===== -->
+<footer class="contact" id="contact">
+  <div class="contact__slats" aria-hidden="true"></div>
+  <div class="contact__content">
+    <span class="section__label section__label--light">
+      <span class="section__num">06</span>
+      <span class="section__word">Kontak</span>
+    </span>
+    <h2 class="contact__headline">Mari membangun<br>sesuatu bersama.</h2>
+    <a href="mailto:alfinkhalajsyahruwardi@gmail.com" class="contact__email">alfinkhalajsyahruwardi@gmail.com</a>
+
+    <div class="contact__row">
+      <a href="tel:+6285211519692">+62 852-1151-9692</a>
+      <a href="https://github.com/alfinkhalaj7" target="_blank" rel="noopener">github.com/alfinkhalaj7</a>
+      <a href="https://www.linkedin.com/in/alfin-khalaj-syahruwardi-39a37b410/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.instagram.com/kiilaj__/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+
+    <div class="contact__foot">
+      <span>© 2026 Alfin Khalaj Syahruwardi</span>
+      <span>Tangerang, Banten, Indonesia</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
